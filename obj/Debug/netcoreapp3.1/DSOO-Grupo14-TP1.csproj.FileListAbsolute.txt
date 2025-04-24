@@ -1,0 +1,13 @@
+C:\Users\ecviv\source\repos\DSOO-Grupo14-TP1\bin\Debug\netcoreapp3.1\DSOO-Grupo14-TP1.exe
+C:\Users\ecviv\source\repos\DSOO-Grupo14-TP1\bin\Debug\netcoreapp3.1\DSOO-Grupo14-TP1.deps.json
+C:\Users\ecviv\source\repos\DSOO-Grupo14-TP1\bin\Debug\netcoreapp3.1\DSOO-Grupo14-TP1.runtimeconfig.json
+C:\Users\ecviv\source\repos\DSOO-Grupo14-TP1\bin\Debug\netcoreapp3.1\DSOO-Grupo14-TP1.runtimeconfig.dev.json
+C:\Users\ecviv\source\repos\DSOO-Grupo14-TP1\bin\Debug\netcoreapp3.1\DSOO-Grupo14-TP1.dll
+C:\Users\ecviv\source\repos\DSOO-Grupo14-TP1\bin\Debug\netcoreapp3.1\DSOO-Grupo14-TP1.pdb
+C:\Users\ecviv\source\repos\DSOO-Grupo14-TP1\obj\Debug\netcoreapp3.1\DSOO-Grupo14-TP1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ecviv\source\repos\DSOO-Grupo14-TP1\obj\Debug\netcoreapp3.1\DSOO-Grupo14-TP1.AssemblyInfoInputs.cache
+C:\Users\ecviv\source\repos\DSOO-Grupo14-TP1\obj\Debug\netcoreapp3.1\DSOO-Grupo14-TP1.AssemblyInfo.cs
+C:\Users\ecviv\source\repos\DSOO-Grupo14-TP1\obj\Debug\netcoreapp3.1\DSOO-Grupo14-TP1.csproj.CoreCompileInputs.cache
+C:\Users\ecviv\source\repos\DSOO-Grupo14-TP1\obj\Debug\netcoreapp3.1\DSOO-Grupo14-TP1.dll
+C:\Users\ecviv\source\repos\DSOO-Grupo14-TP1\obj\Debug\netcoreapp3.1\DSOO-Grupo14-TP1.pdb
+C:\Users\ecviv\source\repos\DSOO-Grupo14-TP1\obj\Debug\netcoreapp3.1\DSOO-Grupo14-TP1.genruntimeconfig.cache
