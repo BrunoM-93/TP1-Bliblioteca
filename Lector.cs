@@ -16,7 +16,14 @@ namespace DSOO_Grupo14_TP1
             this.dni = dni;
             this.prestamosVigentes = new List<Libro>();
         }
-
+        public string getNombre()
+        {
+            return nombre;
+        }
+        public void setNombre(string nombre)
+        {
+            this.nombre = nombre;
+        }
         public string getDni()
         {
             return dni;
