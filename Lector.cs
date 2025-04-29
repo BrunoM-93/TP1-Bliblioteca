@@ -28,12 +28,14 @@ namespace DSOO_Grupo14_TP1
         {
             return dni;
         }
-
+        public List<Libro> getPrestamos()
+        {
+            return prestamosVigentes;
+        }
         public int cantidadPrestamos()
         {
             return prestamosVigentes.Count;
         }
-
         public void agregarPrestamo(Libro libro)
         {
             prestamosVigentes.Add(libro);
