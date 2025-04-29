@@ -72,12 +72,20 @@ namespace DSOO_Grupo14_TP1
                 Console.WriteLine($"- {lector.getNombre()} (DNI: {lector.getDni()})");
             }
         }
+        // Metodo para validar DNI
+        private bool validarDni(string dni)
+        {
+            return System.Text.RegularExpressions.Regex.IsMatch(dni, @"^\d{8}$");
+        }
         // Agrega un lector si no está registrado
         public string altaLector(string nombre, string dni)
         {
+            if (!validarDni(dni))
+                return "DNI inválido. Debe contener exactamente 8 dígitos numéricos.";
+
             foreach (Lector l in lectores)
             {
-                if (l.getDni().Equals(dni))
+                if (l.getDni().Trim().Equals(dni.Trim()))
                     return "El lector ya existe.";
             }
             // Si el Lector no existe (existe=false) lo agrega
@@ -88,11 +96,14 @@ namespace DSOO_Grupo14_TP1
         // Dar de baja lector
         public string bajaLector(string dni)
         {
+            if (!validarDni(dni))
+                return "DNI inválido. Debe contener exactamente 8 dígitos numéricos.";
+
             if (lectores == null || lectores.Count == 0)
                 return "No hay lectores registrados.";
             for (int i = 0; i < lectores.Count; i++)
             {
-                if (lectores[i].getDni().Equals(dni))
+                if (lectores[i].getDni().Trim().Equals(dni.Trim()))
                 {
                     if (lectores[i].cantidadPrestamos() > 0)
                         return "No se puede dar de baja: el lector tiene prestamos pendientes.";
@@ -105,6 +116,9 @@ namespace DSOO_Grupo14_TP1
         // Presta un libro a un lector si cumple las condiciones
         public string prestarLibro(string titulo, string dni)
         {
+            if (!validarDni(dni))
+                return "DNI inválido. Debe contener exactamente 8 dígitos numéricos.";
+
             // Verificamos si existen lectores
             if (lectores == null || lectores.Count == 0)
                 return "LECTOR INEXISTENTE";
@@ -112,7 +126,7 @@ namespace DSOO_Grupo14_TP1
             Lector lectorEncontrado = null;
             foreach (Lector l in lectores)
             {
-                if (l.getDni().Equals(dni))
+                if (l.getDni().Trim().Equals(dni.Trim()))
                 {
                     lectorEncontrado = l;
                     break;
