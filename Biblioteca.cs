@@ -17,7 +17,7 @@ namespace DSOO_Grupo14_TP1
         {
             Libro libroBuscado = null;
             int i = 0;
-            while (i < libros.Count && !libros[i].getTitulo().Equals(titulo))
+            while (i < libros.Count && !libros[i].getTitulo().Equals(titulo, StringComparison.OrdinalIgnoreCase))
                 i++;
             if (i != libros.Count)
                 libroBuscado = libros[i];
